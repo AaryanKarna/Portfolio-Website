@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-dark-bg: #0b111e;
+  --color-light-accent: #f0fdf4;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* 80px to clear the sticky navbar */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fafafa;
+  color: #171717;
+}
+
+p {
+  text-align: justify;
+}
