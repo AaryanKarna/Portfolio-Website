@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Phone, MapPin } from 'lucide-react';
 import { PERSONAL_INFO } from '../data';
 
+
 export default function Hero() {
   const scrollToSub = (id: string) => {
     const el = document.getElementById(id);

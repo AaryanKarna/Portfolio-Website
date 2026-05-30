@@ -1,3 +1,4 @@
+import avatarImg from './assets/images/regenerated_image_1780140733375.jpg';
 import { Skill, Project, EducationItem, CertificationItem } from './types';
 
 export const PERSONAL_INFO = {
@@ -10,7 +11,7 @@ export const PERSONAL_INFO = {
   github: 'https://github.com/AaryanKarna',
   linkedin: 'https://www.linkedin.com/in/aaryan-karn-9352b326a/',
   instagram: 'https://instagram.com/_aaryan.karn',
-  avatar: '/src/assets/images/regenerated_image_1780140733375.jpg',
+  avatar: avatarImg,
   bio: 'I am an Information Technology student with a strong interest in applying technology to solve real-world problems. I am passionate about using technology to improve public services, increase transparency, and make systems more efficient for people.',
   aboutMeLong: 'Currently seeking opportunities to learn, collaborate, and work on projects that align with public impact and development. I specialize in front-end development and UI/UX design, aiming to create intuitive and visually appealing user experiences.'
 };
@@ -126,8 +127,8 @@ export const EDUCATION: EducationItem[] = [
   },
   {
     id: 'edu-2',
-    institution: "NASA International College",
-    degree: "+2 Degree",
+    institution: 'NASA International College',
+    degree: '+2 Degree',
     period: '2023–2024'
   },
   {
